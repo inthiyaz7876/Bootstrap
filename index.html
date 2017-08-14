@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Traffic constal System</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript" src="include/js/script.js"></script>
+		
+	</head>
+	<body>
+	
+	
+	<div class="container" id="main">
+
+		<div class="navbar navbar-fixed-top">
+			<div class="container">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+					<a class="navbar-brand" href="#"><img src="images/logo.jpg" width="100%" alt="logo"></a>
+				
+				<div class="nav-collapse collapse navbar-responsive-collapse" id="nav">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#"><strong>Home</strong></a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Services</strong><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Traffic areas</a></li>
+								<li><a href="#">Reports</a></li>
+								<li><a href="#">Traffic Police</a></li>
+
+								<li class="divider"></li>
+								<li class="dropdown-header">More services</li>
+								<li><a href="#">Create complaint</a></li>
+								<li><a href="#">Social media works</a></li> 
+
+							</ul><!--end drodown menu-->
+						</li>
+					</ul><!--end nav-->
+
+					<form class="navbar-form pull-left">
+						<input type="text" name="form-control" placeholder="Search site content" id="searchInput">
+							<button type="submit" class="btn btn-default" >
+								<span class="glyphicon glyphicon-search" ></span>
+							</button>
+					</form><!--end nav form-->
+				  <ul class="nav navbar-nav pull-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-user"><strong>My Account</strong><strong class="caret"></strong></span>
+						</a>
+
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-user"> Profile</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-cog"> Settings</a>
+							</li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-repeat"> Updates</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#"><span class="glyphicon glyphicon-off"> SignOut</a>
+							</li>
+
+						</ul>
+					</li>
+				  </ul><!--end nav pull right-->
+				</div><!--nav collapse-->
+			</div><!--end container-->
+		</div><!--end navbar-->
+
+
+		<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="2000">
+			<!--indicators-->
+			<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+				
+
+			</ol>
+		<!--wraper for slide-->
+			<div class="carousel-inner" role="listbox">
+			
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Use Bicycles<h4>
+						<p>To control traffic the best way is to use bicycles in the city</p>
+					</div><!--end carousel-caption-->
+			
+				</div><!--end item-->
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Traffic controlling ideas<h4>
+						<p>Use metro trains for traffic control inside the city</p>
+					</div><!--end carousel-caption-->
+			
+				</div><!--end item-->
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Help us to control the traffic<h4>
+						<p>This is about the web page to give data about traffic control in the benglore</p>
+					</div><!--end carousel-caption-->
+			
+				</div><!--end item-->
+
+			</div><!--end corousel inner-->
+			<!--controls-->
+			
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel">
+					<span class="icon-prev"></span>
+				</a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel">
+					<span class="icon-next"></span>
+				</a>
+				
+					
+		</div><!--end carousel-->
+
+		<div class="row" id="bigCallout">
+			<div class="col-12">&nbsp</div>
+
+			<div class="col-12">
+				<!-- visible for only small devices -->
+				<div class="alert alert-success fade">
+			      <button type="button" class="close" data-dismiss="alert"></button>
+			      <strong>Thank you!</strong><br>You are Successfully registered....!
+    			</div>
+				<!-- end Alert -->
+        <div class="well">
+          <div class="page-header">
+            <h1>Registration<small> Register here for more info about traffic</small></h1>
+          </div>
+          <!-- end page header -->
+          <p class="lead"> Traffic in a city like Bangalore is one of the busiest not only in India but it is also one of the busiest in the world. Due to maximum number of vehicles, about 60 lakhs or 6 millions including two wheelers have made the roads difficult to commute. Parking space is one of the main problem.</p>
+          
+             <button class="btn btn-primary" id="register">Register</button>
+              <a href="" class="btn btn-large btn-link"> or a link to more..!</a>
+        </div>
+        <!-- end well -->
+      </div>
+      <!-- end col-12 -->
+   		</div><!--end callout-->
+   		<div class="container">
+  			<div class="jumbotron">
+    			<h1>Traffic Controller</h1>      
+    			<p>The main issue facing by big citis is traffic ,So to controll the traffic just have some tips to control the traffic</p>
+  			</div><!--end jumbotron-->
+  			     
+		</div><!--end jumbo cointainer-->
+
+
+		<div class="row" id="featureheading">
+
+				<div class="col-12">
+				<h2> More Features</h2>
+				<p class="lead">Driving on the wrong side of the divider is also acceptable in most parts of Bangalore. all in all it is disgusting to see the so called IT capital of India turning into the 'city of lawless roads'. we have already gone through the transition from Garden City to Garbage city. I was impressed to find the strict adherence to traffic rules. it appeared that jumping of red light and other traffic violations would attract near certain 'challan' and the fear ( or respect) for law was very evident.
+				.</p>
+			</div>
+
+
+			
+		</div><!--end feature heading--> 
+
+
+		<div class="row" id="featatures">
+			<div class="col-lg-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Traffic areas</h3>
+					</div><!-- end pannel heading -->
+					<div class="col-12">
+						<img src="images/panel1.jpg" alt="image not available" width="100%" class="img-circle">
+					</div>
+					<p> <br>Most aware citizens say that widening roads to fight traffic congestion is like buying larger clothes to fight obesity. BBMP and some others feel that some arterial roads are choked, and road widening is a must.Such direct focus on roads, and so little on mobility has been a problem with Bangalore's planners for a decade now. But its only in early 2010, when a large road widening scheme from BBMP threatened to touch thousands of private properties that the debate has hit common citizens of Bengaluru.</p>
+					<a href="https:www.udemy.com/" target="_blank" class="btn btn-warning btn-block"> Read more</a>
+				</div><!-- end panel -->
+			</div><!--feature ending-->
+			
+			<div class="col-lg-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Traffic control</h3>
+					</div><!-- end pannel heading -->
+					<div class="col-12">
+						<img src="images/panel2.jpg" alt="image not available" width="100%" class="img-circle">
+					</div>
+					<p> <br>Nomatter however the road is wide, there is always traffic jams. Still BBMP seems to have not analyzed the problem and expanding the roads by cutting trees and reducing pavements has become its endless project.College Road while getting down the Anand Rao circle which were 'alive' from 100s of years being cut to widen further. Already the road is 1 way and it is a 4 lane road. Why to loose our greenery unnecessarily.We have seen the examples of Bangkok.</p>
+					<a href="https:www.udemy.com/" target="_blank" class="btn btn-danger btn-block"> Read more</a>
+				</div><!-- end panel -->
+			</div><!--feature ending-->
+			
+			<div class="col-lg-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Best sollutions</h3>
+					</div><!-- end pannel heading -->
+					<div class="col-12">
+						<img src="images/panel3.jpg" alt="image not available" width="100%" class="img-circle">
+					</div>
+					<p> <br> Why to loose our precious trees which are seniors in terms of age for a foolish act of road widening which we all know is not going to give us any solution. Inthiyaz weds Suhana both are very gooddefinitely give us a solution. Still, alternative routes should be taken wherever possible to avoid tree cutting such as the case in Nanda Road.What is our environmental agency 'Hasiru Usiru' doing? Hope they will build a regular flyover now and close the current magic box for good.</p>
+					<a href="https:www.udemy.com/" target="_blank" class="btn btn-info btn-block"> Read more</a>
+				</div><!-- end panel -->
+			</div><!--feature ending-->
+			
+		</div><!--end features--> 
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Newly Updated Meterials</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tabl" data-toggle="tab"> section 1</a></li>
+						<li ><a href="#tab2" data-toggle="tab"> section 2</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h4><span class="glyphicon glyphicon-map-marker"></span>Our Location<small> More Like our favourites surf spot</small>
+							</h4>
+
+							<iframe width="100%" height="200" frameborder="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31682820.78692287!2d64.48080432608621!3d20.15053687184449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e1!3m2!1sen!2sin!4v1465841487129" >
+								
+							</iframe>
+
+							<p>Here you find the address of the traffic offce.<br>Addressing a press conference Mr Nataraj said BBMP and property owners themselves were free to erase the red markings on buildings and houses in the core areas of the city for the time being. “Roads will be widened only in the newly added areas and where people themselves feel it is neccessary,” he said.</p><p>So, does this mean they will proceed if government agrees to earmark BDA sites? What a contradiction. Our leaders have become the masters of saying both yes and no in the same breath, and we have become the masters of beliving what they say.</p>
+							
+						</div><!-- end pane -->
+						<div class="tab-pane" id="tab2">
+							<h4>Silkboard flyover<small> Using flyover for traffic control</small></h4>
+							<img src="images/model.jpg" width="140" hight="140" class="thumbnail pull-left">
+							<p>The picture above shows the road plan to the west of  Sirsi Circle. The Flyover bring in two lanes of traffic, the surface level slip road from Sirsi Circle brings another two lanes of traffic and there is two more lanes of traffic joining the 'intersection' from Chamarajapet, through the Albert Victor Road. That is six lanes of traffic merging into two lanes in space of about 100 mts.</p>
+							<p>Traffic signal installed about 200 mts from the end of flyover, only to enable the right turn into Guddadahalli. This means the traffic on the other side of the road - from Bapujinagar to Sirsi Circle/Flyover - gets stalled at the si. gnal. This creates long jams on both sides of the road. Peaks hours are terribly bad, Saturdays are worse!!
+							</p>
+							<p>There is a traffic signal installed about 200 mts from the end of flyover, only to enable the right turn into Guddadahalli. This means the traffic on the other side of the road - from Bapujinagar to Sirsi Circle/Flyover - gets stalled at the si. gnal. This creates long jams on both sides of the road. Peaks hours are terribly bad, Saturdays are worse!!
+							</p>
+							<hr>
+							<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Give Feedback here </a>
+							<div class="modal fade" id="myModal"><!--Model-->
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">FeedBack</h4>
+										</div><!--end model header-->
+											
+										<div class="modal-body">
+										 	<h4>Text in a Modal</h4>
+										     <p>Another important change required at the junction is to remove the traffic signal. This can be achieved by a simple 7mts (two lane) </p>
+										  	<h4>Proves in a Mode</h4>
+											<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You Clicked it" data-content="I know you would">Don't click this button</a>
+										  	<h4>Tooltips in a Model</h4>
+											<a href="#"></a>Tool tips<a href="#">Click this link</a>
+											<hr>
+											<p><small class="text-muted">Fill your details and send us feedback....</small></p>
+										  	<form class="form-horizontal">
+												<div class="form-group">
+													<label class="col-lg-2 control-lable" for="inputName">Name</label>
+													<div class="col-lg-10">
+													   <input class="form-control" id="inputName" placeholder="Name" type="text">
+													</div>
+												</div>
+
+												<div class="form-group">
+													<label class="col-lg-2 control-lable" for="inputEmail">Email</label>
+													<div class="col-lg-10">
+													   <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+													</div>
+												</div>
+												<div class="form-group">
+												  <label class="col-lg-2 control-lable" for="inputMessage">Message</label>
+												  <div class="col-lg-10">
+													 <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3" cols=""></textarea>
+													  <button class="btn btn-success pull-right" type="button" id="send">Send!</button>
+												  </div>
+												</div>
+				     			     	    </form>
+										</div><!--end model body-->
+										<div class="modal-footer">
+											<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+											<button class="btn btn-primary" type="">Save Changes</button>
+										</div>
+									</div><!-- end modal content -->
+								</div><!-- end modal -->
+							</div><!-- end mymodal -->
+						</div><!--end tab pane-->
+					</div>
+				</div>
+			</div><!-- end "col-sm-6" -->
+			<div class="col-sm-6">
+				<h3>Some More Info</h3>
+							<p>
+							The solution to this issue lies in widening the junction to accomodate more vehicles. Long stretches of roads need not be widened for smoother traffic flow. Its time now for BBMP to widen junctions, as against road widening. This post has a plan to fasten the exit from this intersection.
+							</p>
+				<h4>List Group</h4>
+				<div class="list-group">
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Traffic Areas</h4>
+						<p class="list-group-item-text">
+							Firstly, there are two small streches to be widened (marked in the picture above). On the northern side, the strech from DHL office to the burial ground - about 200mts - has to be widened. Victor road to the IOC petrol bunk (immediately after the present signal) has to be widened. This will mean loss of only.
+						</p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Flyover</h4>
+						<p class="list-group-item-text">
+							Another important change required at the junction is to remove the traffic signal. This can be achieved by a simple 7mts (two lane) magic box on the northern half of the Guddahalli-Mysore road junction. Illustration below.
+ 					   </p>
+					</a>
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Ideas</h4>
+						<p class="list-group-item-text">
+							Traffic is big issue in city.This chapter tells you something about the Web's early days, HTML,and about the people,companies and organizations.
+						</p>
+					</a>
+				</div><!--end list group-->
+				<h5>Implementations</h5>
+				<p>
+					The simple truth is that building more highways and widening existing roads, almost always motivated by concern over traffic, does nothing to reduce traffic. 
+				</p>
+			</div><!--end col 6-->
+		</div><!--end moreinfo--> 
+		 <div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>To know more about City Traffic</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+							<img  width="100%" src="images/moreinfo1.jpg" alt="image not availavle" />
+								<div class="caption">
+									<h3>Controls.</h3>
+									<p>
+									The simple truth is that building more highways and widening existing roads, almost always motivated by concern over traffic, does nothing to reduce traffic. In the long run, in fact, it increases traffic.
+									</p>
+									<p>
+									<a href="#" class="btn btn-primary btn-small" target="_blank">Give Suggistions</a>
+									<a href="#" target="_blank" class="btn btn-small btn-link">Learn More</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/moreinfo2.jpg" width="100%"" alt="image not available" />
+								<div class="caption">
+								  <h3>Statistics</h3>
+								  <p>
+								  A piece of statistic from the Mumbai Traffic Police web site illustrates the magnitude of the problem: While length of roads in Mumbai increased two times between 1951 and 2007
+								  </p>
+							      <p>
+   								  <a href="#" class="btn btn-primary btn-small" target="_blank">Take Suggistions</a>
+								  <a href="#" target="_blank" class="btn btn-small btn-link">Learn More</a>
+							      </p>
+								</div>
+							</div>
+						</div>
+					</div><!--end thumbunails row-->
+				</div><!--end cal_12-->
+			</div> <!-- end moreCourses -->	   
+	</div><!--end container-->
+	<footer>
+	<div class="container_12" id="footer">
+		<div class="row">
+			<div class="col-sm-2">
+				<h6>Copyright &copy; 2017 Traffic</h6>
+			</div>
+			<div class="col-sm-4">
+				<h6>About Us</h6>
+				<p>
+				Another way of widening or adding lanes is to build elevated roads. Essentially it is another way to add bandwidth which is similarly destructive. In fact most countries are today opting to pull down the elevated highways they have built, following are some examples
+				</p>
+			</div>
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-2">
+				<h6>Fallow us</h6>
+				<ul class="unstyled">
+					<li><a href="facebook.com">Facebook</a></li>
+					<li><a href="google.com">Google+</a></li>
+					<li><a href="linkedIn.com">Linked in</a></li>
+					<li><a href="Twitter.com">Twitter</a></li>
+				</ul>
+			</div>
+		</div><!-- end row-->
+	</div><!-- conatiner_12-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	
+	</footer><!--end footer-->
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	
+	
+	</body>
+</html>
+
